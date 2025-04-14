@@ -167,6 +167,11 @@ fieldset{
     margin-left: -25px;
 }
 
+.form textarea{
+    resize: none;
+    font-family: var(--fonte-padrao);
+}
+
 .form input#ienviar{
     width: 100%;
     display: block;
@@ -174,6 +179,7 @@ fieldset{
     background-color: var(--cor1);
     color: var(--cor5);
 }
+
 
 aside{
     min-width: 300px;
