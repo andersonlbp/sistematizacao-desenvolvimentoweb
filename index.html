@@ -50,10 +50,23 @@
                 <li>Psicologia e Aconselhamento Nutricional</li>
                 <p>Nossa equipe de psicólogos ajuda no desenvolvimento de uma relação saudável com a alimentação, apoiando pacientes com transtornos alimentares, ansiedade e compulsão alimentar.</p>
             </ol>
-        
+
+            <div class="imagens-servicos">
+                <div class="imagem"><img src="imagens/laboratorio.jpg" alt="laboratorio">
+                <h3>Serviço de exames</h3>
+                </div>
+                <div class="imagem">
+                
+                    <img src="imagens/nutricao.jpg" alt="alimentacao"><h3>Aconselhamento nutricional</h3></div>
+                <div class="imagem">
+                
+                    <img src="imagens/exame.jpg" alt="exame"><h3>Análise laboratorial</h3></div>
+            </div>
+
+        <h2>Retire suas dúvidas</h2>
             <fieldset>
-                <legend>Saiba Mais</legend>
-                <form>
+                <form class="form">
+                    <h1>Formulário de dúvidas</h1>
                     <p>
                         <label for="inome">Nome completo:</label>
                         <input type="text" name="nome" id="inome" required></p>
@@ -61,9 +74,12 @@
                     <p><label for="icidade">Cidade: </label><input type="text" name="cidade" id="icidade" required> </p>
                     <p><label for="iestado">Estado: </label>
                         <input type="text" name="estado" id="iestado" required> </p>
+                        
+                        <p><label for="imensagem">Mensagem: </label><Textarea name="mensagem" id="imensagem"></Textarea></p>
+
                     <p>
-                        <input type="submit" value="Enviar"required>
-                        <input type="reset" value="Limpar">
+                        <label for="ienviar"></label>
+                        <input type="submit" value="Enviar"required id="ienviar">
                     </p>
                 </form>
             </fieldset>

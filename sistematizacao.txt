@@ -4,8 +4,8 @@ Projeto 01 - Uma landing page estática apresentando as principais informações
 
 Partes obrigatórias do site:
 Título (nome da aba); OK
-Imagens de produtos/serviços (mínimo 2 imagens);
+Imagens de produtos/serviços (mínimo 2 imagens); OK
 Descrição do produtos/serviços; OK
 Equipe fictícia da clínica com fotos e cargos (mínimo 3 imagens); OK
 Uso de pelo menos 2 níveis de cabeçalho; OK
-Formulário estático de inscrição para saber mais a empresa (Nome, e-mail, cidade e estado) - sem processamento depois do submit.
+Formulário estático de inscrição para saber mais a empresa (Nome, e-mail, cidade e estado) - sem processamento depois do submit. OK

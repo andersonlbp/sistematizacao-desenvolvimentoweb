@@ -132,8 +132,47 @@ ol>li{
     font-weight: bold;
 }
 
-fieldset{
+.imagens-servicos{
+    padding: 20px;
     text-align: center;
+}
+
+fieldset{
+    max-width: 32rem;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.form{
+    width: 100%;
+    max-width: 32rem;
+    font-family: var(--fonte-destaque1)
+}
+
+.form h1{
+    text-align: center;
+}
+
+.form input, .form textarea{
+    width: 96%;
+    display: block;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0.5rem;
+    
+}
+
+.form label{
+    margin-left: -25px;
+}
+
+.form input#ienviar{
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    background-color: var(--cor1);
+    color: var(--cor5);
 }
 
 aside{
@@ -144,8 +183,7 @@ aside{
     padding: 20px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.405);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -153,7 +191,7 @@ aside h2{
     font-family: var(--fonte-destaque1);
 }
 
-aside > div > h3{
+aside > div > h3, main > section > div > div > h3{
     padding: 10px 0 0 0;
     font-family: var(--fonte-destaque2);
 }
@@ -178,6 +216,7 @@ aside > div > h3{
 }
 
 footer{
+    font-family: var(--fonte-destaque1);
     background-color: var(--cor4);
     color: white;
     text-align: center;
