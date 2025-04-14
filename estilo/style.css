@@ -178,6 +178,8 @@ fieldset{
     padding: 1rem;
     background-color: var(--cor1);
     color: var(--cor5);
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
 
